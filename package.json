@@ -1,0 +1,15 @@
+{
+  "name": "uebersicht-spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-promise": "^0.5.12",
+    "spotify-node-applescript": "^1.1.0"
+  }
+}
