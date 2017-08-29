@@ -110,6 +110,8 @@ update: (output, el) ->
     else if !data.shuffling && shuffle.hasClass('active')
         shuffle.removeClass('active')
 
+    self = @
+
     # only add event listeners if they don't
     # already exist
     if !play[0].onclick
@@ -141,7 +143,7 @@ render: (output) -> """
             <i class='material-icons shuffle'>shuffle</i>
         </div><img class='artwork' src='' />
         <div class='info'>
-            <span class='name'></span> by
+            <span class='name'></span> 
             <span class='artist'></span>
         </div>
         <div class="progress">
